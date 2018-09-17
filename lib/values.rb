@@ -12,4 +12,5 @@ def get_the_values(groceries)
   #groceries.values.flatten
   grocery_list = []
   groceries.values.each {|arr| arr.each {|item| grocery_list << item}}
+  grocery_list
 end
