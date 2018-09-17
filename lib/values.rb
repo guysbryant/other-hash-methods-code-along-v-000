@@ -10,5 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   groceries.values.flatten
-  groceries.values.
+  grocery_list = []
+  groceries.values.each {|arr| arr.each {|item| grocery_list << item}}
 end
